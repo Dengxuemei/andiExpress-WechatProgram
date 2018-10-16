@@ -1,0 +1,96 @@
+/* pages/myorder/myorder.wxss */
+page{ 
+ display: flex; 
+ flex-direction: column; 
+ height: 100%; 
+} 
+.navbar{ 
+ flex: none; 
+ display: flex; 
+ background: #fff; 
+} 
+.navbar .item{ 
+ position: relative; 
+ flex: auto; 
+ text-align: center; 
+ line-height: 80rpx; 
+} 
+.navbar .item.active{ 
+ color: #000035c2; 
+} 
+.navbar .item.active:after{ 
+ content: ""; 
+ display: block; 
+ position: absolute; 
+ bottom: 0; 
+ left: 0; 
+ right: 0; 
+ height: 4rpx; 
+ background: #000035c2; 
+} 
+.item{
+  margin-top: 30rpx;
+}
+.myorder{
+  margin-top: 60rpx;
+  height: 200rpx;
+  font-size: 28rpx;
+}
+.border{
+   height: 240rpx;
+  color: #000035c2;
+  border-left: 10rpx solid  #000035c2; 
+}
+
+.weui-cell__hd_orderNo{
+  padding-top: 10rpx;
+  padding-left: 25rpx;
+  font-size: 25rpx;
+  color: rgb(172, 168, 168);
+  border-bottom: 1rpx solid #C3C0C0;
+}
+.time{
+   font-size: 25rpx;
+   margin-left: 130rpx;
+   color: rgb(155, 151, 151); 
+}
+.weui-cell__bd{ 
+  margin-top: 10rpx;
+  padding-left: 40rpx;
+}
+.message{
+  font-weight: bold;
+  color: black;
+}
+.paying{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+   color: black;
+}
+image{
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.btn1{
+  margin-top: 6rpx;
+  margin-left: 300rpx;
+  margin-right: 30rpx;
+  border: 1rpx solid #000035c2;
+  color: #000035c2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btn2{
+  margin-right: 30rpx;
+  border: 1rpx solid #000002c2;
+  color: #000002c2;
+
+}
+.btnn{
+   margin-top: 6rpx;
+  margin-left: 500rpx;
+  margin-right: 30rpx;
+}
