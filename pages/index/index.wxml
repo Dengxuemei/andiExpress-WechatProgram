@@ -101,7 +101,9 @@
       </view>
 
       <view class='flex-row' style='display:flex'>
-        <button form-type='submit' size='mini' class='btn4' style=' background-color: #000035c2'>提交订单并支付</button>
+        <button form-type='submit' size='mini' class='btn4' style=' background-color: #000035'>
+        <text>提交订单并支付</text>
+        </button>
       </view>
     </view>
 

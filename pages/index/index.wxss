@@ -62,10 +62,10 @@ view{
   justify-content: center;
 }
 .btn2{
-  width: 60%;
+  width: 40%;
   margin-top: 10rpx;
-  border: 1rpx solid #000035c2;
-  color: #000035c2;
+  border: 1rpx solid rgb(72, 132, 167);
+  color: rgb(72, 132, 167);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -83,13 +83,19 @@ view{
 }
 .btn4{
    width: 70%;
-  margin-top: 20rpx;
-  border: 1rpx solid #000035c2;
+   height: 100rpx;
+  margin-bottom: 10rpx;
+  margin-top: 30rpx;
+  border: 1rpx solid rgb(72, 132, 167);
   color: whitesmoke;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+.btn4 text{
+  line-height: 100rpx;
+ font-size: 40rpx;
 }
 
 

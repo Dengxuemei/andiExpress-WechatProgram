@@ -9,7 +9,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000033",
+    "navigationBarBackgroundColor": "#3B789C",
     "navigationBarTitleText": "下单",
     "navigationBarTextStyle": "write"
   },
@@ -28,7 +28,7 @@
         "selectedIconPath": "image/mine(1).png",
         "iconPath": "image/mine.png",
         "pagePath": "pages/mine/mine",
-        "text": "我的"
+        "text": "个人"
       }
     ]
   }

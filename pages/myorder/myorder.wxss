@@ -16,7 +16,7 @@ page{
  line-height: 80rpx; 
 } 
 .navbar .item.active{ 
- color: #000035c2; 
+ color:  #000035; 
 } 
 .navbar .item.active:after{ 
  content: ""; 
@@ -26,7 +26,7 @@ page{
  left: 0; 
  right: 0; 
  height: 4rpx; 
- background: #000035c2; 
+ background: #000035; 
 } 
 .item{
   margin-top: 30rpx;
@@ -38,8 +38,8 @@ page{
 }
 .border{
    height: 240rpx;
-  color: #000035c2;
-  border-left: 10rpx solid  #000035c2; 
+  color: #000035;
+  border-left: 10rpx solid  #000035; 
 }
 
 .weui-cell__hd_orderNo{
